@@ -1,0 +1,8 @@
+============
+Installation
+============
+
+Stable release
+--------------
+
+TODO
