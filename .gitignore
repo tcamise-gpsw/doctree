@@ -2,6 +2,8 @@
 /.git/
 /.reports/
 
+/test/vectors/ignored_file
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
