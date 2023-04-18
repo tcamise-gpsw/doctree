@@ -18,3 +18,5 @@ enable= DAR001,
     DAR401,
     DAR402,
     DAR501
+# This breaks on methods generated from decorators so we allow pylint to handle excess returns
+ignore=DAR202

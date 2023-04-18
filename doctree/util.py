@@ -1,3 +1,5 @@
+"""Utility functionality for doctree package"""
+
 from __future__ import annotations
 import logging
 from pathlib import Path
@@ -35,7 +37,7 @@ class Logger:
         modules: Optional[dict[str, int]] = None,
     ) -> None:
         self.modules = {
-            # "doctree.file": logging.DEBUG,
+            "doctree.util": logging.WARN,
         }
 
         self.logger = logger

@@ -46,7 +46,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-doctree-gen = "doctree.main:entrypoint"
+doctree-gen = "doctree.scripts.main:entrypoint"
 
 [tool.poe.tasks.tests]
 cmd = "pytest test --cov-fail-under=0"
@@ -208,3 +208,4 @@ exclude = ".venv"
 [tool.pydocstyle]
 convention = "google"
 add-ignore = "D415, D107, D105"
+match-dir = '(?!.*scripts).*'
