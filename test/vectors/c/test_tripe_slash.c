@@ -1,4 +1,4 @@
-// @brief TestBrief
+/// @brief TestBrief
 
 int main(int argc, char const *argv[])
 {

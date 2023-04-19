@@ -1,0 +1,10 @@
+#! /bin/bash
+
+# @brief TestBrief
+
+function main
+{
+    echo
+}
+
+main
